@@ -7,7 +7,7 @@ function stack() {
     this.peek = peek; // 查看栈顶元素
     this.clear = clear; // 清空栈
     this.size = size; // 栈内存放元素的个数
-    this.isEmpty = isEmpty; // 栈内存放元素的个数
+    this.isEmpty = isEmpty; // 判断栈是否为空
 }
 
 function push(ele) {
